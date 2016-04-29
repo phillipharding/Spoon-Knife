@@ -93,6 +93,13 @@
 			} else if (window.location.pathname.match('/callback2.html')) {
 				$('#callbackLink2').parent().addClass('active');
 			}
+
+			var q = location.search + location.hash;
+			$('.nav li a').each(function() {
+				var 	$this = $(this), 
+						href = $this.attr('href');
+				$this.attr('href', href + q);
+			});
 		});
 	</script>
 </body>
