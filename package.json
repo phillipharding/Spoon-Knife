@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo \"Simulate the Build Process.\" && exit 0",
     "postversion": "git add --all",
-    "release": "npm version minor && npm run build && git push && git push --tags"
+    "release": "npm version minor -m \"Built release: %s\" && npm run build && git push && git push --tags"
   },
   "repository": {
     "type": "git",
