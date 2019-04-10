@@ -4,7 +4,9 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Simulate the Build Process.\" && exit 0",
+    "postversion": "git add --all",
+    "release": "npm version minor && npm run build && git push && git push --tags"
   },
   "repository": {
     "type": "git",
