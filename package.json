@@ -7,7 +7,7 @@
     "build": "echo \"Simulate the Build Process.\" && exit 0",
     "Xpostversion": "git add --all",
     "version": "standard-version -m \"Built release: %s\"",
-    "release": "standard-version -m \"Built release: %s\" && npm run build",
+    "release": "standard-version -m \"Built release: %s\" && npm run build && git add --all && git push && git push --tags",
     "Xrelease": "npm run version && npm run build && git push && git push --tags"
   },
   "repository": {
