@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "echo \"Simulate the Build Process.\" && exit 0",
-    "postversion": "git add --all",
-    "release": "npm version minor -m \"Built release: %s\" && npm run build && git push && git push --tags"
+    "Xpostversion": "git add --all",
+    "version": "standard-version -m \"Built release: %s\"",
+    "release1": "standard-version -m \"Built release: %s\" && npm run build"
+    "Xrelease2": "npm run version && npm run build && git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/phillipharding/Spoon-Knife/issues"
   },
-  "homepage": "https://github.com/phillipharding/Spoon-Knife#readme"
+  "homepage": "https://github.com/phillipharding/Spoon-Knife#readme",
+  "devDependencies": {
+    "standard-version": "^5.0.2"
+  }
 }
