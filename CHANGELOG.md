@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.5.0](https://github.com/phillipharding/Spoon-Knife/compare/v1.4.3...v1.5.0) (2019-10-11)
+
+
+### Bug Fixes
+
+* fixed file handling code ([9fe6d6c](https://github.com/phillipharding/Spoon-Knife/commit/9fe6d6c))
+
+
+### Features
+
+* added new file handling module ([212ded0](https://github.com/phillipharding/Spoon-Knife/commit/212ded0))
+
+
+
 ## [1.4.3](https://github.com/phillipharding/Spoon-Knife/compare/v1.4.2...v1.4.3) (2019-10-11)
 
 
