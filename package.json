@@ -1,11 +1,11 @@
 {
   "name": "spoon-knife",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "test",
   "main": "index.js",
   "scripts": {
     "gitlog": "git log --pretty=\"* %s ([%h](https://github.com/phillipharding/Spoon-Knife/commits/%h)) (%cd)\" --since=200.days --date=\"short\"",
-    "build": "echo \"Simulate the Build Process.\" && exit 0",
+    "build": "echo \"Simulate the Build Process.\" && touch ./index.html -a -m && exit 0",
     "publishrelease": "standard-version -m \"Built standard-release: %s\" && npm run build && git add --all && git commit -a -m \"Rebuilt package: %s\" && git push --follow-tags"
   },
   "repository": {
