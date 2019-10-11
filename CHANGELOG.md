@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.4.0](https://github.com/phillipharding/Spoon-Knife/compare/v1.3.1...v1.4.0) (2019-10-11)
+
+
+### Bug Fixes
+
+* added additional line ([caf81c1](https://github.com/phillipharding/Spoon-Knife/commit/caf81c1))
+
+
+### Features
+
+* added auto packing and new section ([07501f1](https://github.com/phillipharding/Spoon-Knife/commit/07501f1))
+* added complex new section ([ca551ab](https://github.com/phillipharding/Spoon-Knife/commit/ca551ab))
+
+
+
 ## [1.3.1](https://github.com/phillipharding/Spoon-Knife/compare/v1.3.0...v1.3.1) (2019-04-11)
 
 
